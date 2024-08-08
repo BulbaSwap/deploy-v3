@@ -93,3 +93,14 @@ Depends on the confirmation times and gas parameter. The deploy script sends up 
 ### Where should I ask questions or report issues?
 
 You can file them in `issues` on this repo and we'll try our best to respond.
+
+### Run local script
+
+```
+yarn ts-node index.ts \
+ -pk $PRIVATE_KEY -j $ETH_RPC_URL \
+ -w9 0x5300000000000000000000000000000000000011 \
+ -ncl ETH \
+ -o $ADDRESS \
+ -v2 0x593E80859079f38D4c19459f1E4f55A44a86bCcC
+```
